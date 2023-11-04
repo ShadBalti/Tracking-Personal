@@ -99,3 +99,24 @@ function loadTransactionsFromLocalStorage() {
 addTransactionBtn.addEventListener('click', addTransaction);
 loadTransactionsFromLocalStorage();
 updateDisplay();
+
+
+// Get the budget form element
+const budgetForm = document.querySelector('#budget-form');
+
+// Add an event listener to the budget form submit event
+budgetForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // Get the budget income and expenses from the form
+    const budgetIncome = document.querySelector('#budget-income').value;
+    const budgetExpenses = document.querySelector('#budget-expenses').value;
+
+    // Calculate the budget balance
+    const budgetBalance = budgetIncome - budgetExpenses;
+
+    // Update the budget summary
+    document.querySelector('#budget-summary-income').textContent = budgetIncome;
+    document.querySelector('#budget-summary-expenses').textContent = budgetExpenses;
+    document.querySelector('#budget-summary-balance').textContent = budgetBalance;
+});
