@@ -51,6 +51,29 @@
             <h2>Data Visualization</h2>
             <canvas id="expenseChart"></canvas>
         </div>
+      <section id="budget">
+    <h2>Budget</h2>
+    <form id="budget-form">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="budget-income">Income</label>
+                <input type="number" id="budget-income" name="income" placeholder="Enter your monthly income">
+            </div>
+            <div class="col-md-6">
+                <label for="budget-expenses">Expenses</label>
+                <input type="number" id="budget-expenses" name="expenses" placeholder="Enter your monthly expenses">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Create Budget</button>
+    </form>
+    <div id="budget-summary">
+        <h3>Budget Summary</h3>
+        <p>Income: <span id="budget-summary-income"></span></p>
+        <p>Expenses: <span id="budget-summary-expenses"></span></p>
+        <p>Balance: <span id="budget-summary-balance"></span></p>
+    </div>
+</section>
+
     </main>
     <script src="script.js"></script>
 </body>
