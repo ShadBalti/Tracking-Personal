@@ -118,7 +118,7 @@ button {
 #budget-form {
   border: 1px solid #007bff;
   border-radius: 5px;
-margin: 10px
+  margin: 10px;
 }
 
 #budget-summary {
@@ -128,8 +128,7 @@ margin: 10px
 #budget-form input {
   font-size: 16px;
   font-weight: bold;
-  border-radius: 5px;
-  outline: none
+  outline: none;
 }
 
 #budget-summary h3 {
