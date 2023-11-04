@@ -51,3 +51,31 @@ button {
     cursor: pointer;
     color: red;
 }
+
+
+.add-transaction {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-transaction h2 {
+  margin-top: 0;
+}
+
+.add-transaction label {
+  margin-bottom: 10px;
+}
+
+.add-transaction input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-transaction button {
+  margin-top: 10px;
+  width: 100%;
+}
