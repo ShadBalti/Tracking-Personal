@@ -79,3 +79,29 @@ button {
   margin-top: 10px;
   width: 100%;
 }
+
+
+.summary {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+
+.summary h2 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 24px;
+}
+
+.summary p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.summary span {
+  font-size: 20px;
+  font-weight: bold;
+    }
