@@ -27,16 +27,26 @@
             <ul id="transaction-list"></ul>
         </div>
         <div class="add-transaction">
-            <h2>Add Transaction</h2>
-            <label for="text">Text</label>
-            <input type="text" id="text" placeholder="Enter text..." />
-            <label for="amount">Amount</label>
-            <input type="number" id="amount" placeholder="Enter amount..." />
-            <label for="category">Category</label>
-            <input type="text" id="category" placeholder="Enter category..." />
-            <button id="addTransaction" class="btn btn-primary">Add Transaction <i class="bi bi-plus"></i></button>
-            
-        </div>
+  <h2>Add Transaction</h2>
+  <div class="row">
+    <div class="col-6">
+      <label for="text">Text</label>
+      <input type="text" id="text" placeholder="Enter text..." />
+    </div>
+    <div class="col-6">
+      <label for="amount">Amount</label>
+      <input type="number" id="amount" placeholder="Enter amount..." />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <label for="category">Category</label>
+      <input type="text" id="category" placeholder="Enter category..." />
+    </div>
+  </div>
+  <button id="addTransaction" class="btn btn-primary">Add Transaction <i class="bi bi-plus"></i></button>
+    </div>
+        
         <div class="data-visualization">
             <h2>Data Visualization</h2>
             <canvas id="expenseChart"></canvas>
