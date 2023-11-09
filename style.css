@@ -108,14 +108,11 @@ button {
 
 
 #budget {
-  border: 1px solid #ccc;
-  padding: 20px;
+  
   border-radius: 5px;
 }
 
 #budget-form {
-  border: 1px solid #007bff;
-  border-radius: 5px;
   margin: 10px;
 }
 
